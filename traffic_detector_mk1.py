@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('Video_Data/Longboarders_Cars_In_1.mp4')
+cap = cv2.VideoCapture('../Video_Data/Longboarders_Cars_In_1.mp4')
 fgbg = cv2.createBackgroundSubtractorMOG2(detectShadows=True)
 
 frame_count = 0
